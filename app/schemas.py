@@ -42,8 +42,6 @@ class PostOut(PostBase):
     votes: int
 
     
-
-
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
